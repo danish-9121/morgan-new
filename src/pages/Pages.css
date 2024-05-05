@@ -1,0 +1,45 @@
+.HomeBackground{
+    background-image: url(PageImage/bg-home.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1444px rgba(59, 59, 59, 0.4)
+}
+@media screen and (min-width:991px){
+    .HomeBackground{
+        height: 100vh;
+    }
+}
+.hell:hover{
+    background-color: #323131;
+    color: white;
+    text-decoration: underline;
+}
+.ph{
+    color: #F4B151;
+}
+.About{
+    background-image: url(PageImage/AboutImg.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1444px rgba(59, 59, 59, 0.4);
+    height: 45vh;
+}
+.Service{
+    background-image: url(PageImage/AboutImg.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1444px rgba(59, 59, 59, 0.4);
+    height: 45vh;
+}
+@media screen and (max-width:991px) {
+    .image-s{
+        margin-top: 2%;
+    }
+}
+.Contact{
+    background-image: url(PageImage/AboutImg.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1444px rgba(59, 59, 59, 0.4);
+    height: 45vh;
+}
+.hel:hover{
+    background-color: #323131;
+    color: white;
+}
